@@ -7,7 +7,7 @@
 		"client-install": "npm install --force --prefix client",
 		"server-install": "npm install",
 		"build": "npm run build --prefix client",
-		"install-deps": "npm run server-install & npm run client-install & npm run build",
+		"install-deps": "npm run server-install && npm run client-install && npm run build",
 		"start": "node server.js",
 		"server": "nodemon server.js",
 		"client": "npm start --prefix client",
